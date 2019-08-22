@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6.0dp"
+        android:id="@+id/space1" />
+    <ImageView
+        android:src="@drawable/IMG_Identificador2"
+        android:layout_width="match_parent"
+        android:layout_height="26.0dp"
+        android:id="@+id/imgIdentificador1" />
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="24.0dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="34.5dp"
+        android:id="@+id/linearLayout2"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginBottom="0.0dp">
+        <ImageView
+            android:src="@drawable/IMG_Voltar"
+            android:layout_width="166.0dp"
+            android:layout_height="39.0dp"
+            android:id="@+id/imgVoltar"
+            android:layout_marginRight="0.0dp" />
+        <Space
+            android:layout_width="126.3dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space2" />
+        <ImageView
+            android:src="@drawable/IMG_Atualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="34.0dp"
+            android:id="@+id/imgAtt" />
+    </LinearLayout>
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="14.0dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="141.5dp"
+        android:id="@+id/linearLayout2"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp">
+        <Space
+            android:layout_width="75.7dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space3" />
+        <ImageView
+            android:src="@drawable/IMG_SemImagem"
+            android:id="@+id/imageView3"
+            android:layout_width="200.0dp"
+            android:layout_height="132.7dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/space3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="4dp"
+            android:text="  PET NOME:"
+            android:layout_width="125.0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="0.0dp"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:layout_width="match_parent"
+            android:layout_height="39.3dp"
+            android:enabled="false"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/edtPetNome" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/space1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="4dp"
+            android:text="  PET NASCIMENTO:"
+            android:layout_width="196.7dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="0.0dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="viewStart"
+            android:layout_height="40.0dp"
+            android:inputType="text"
+            android:longClickable="false"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/edtPetNascimento" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="42.3dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="  PET RAÇA:"
+            android:layout_width="120.7dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="6.2dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="viewStart"
+            android:layout_height="40.0dp"
+            android:inputType="text"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/edtPetRaca"
+            android:layout_marginBottom="0.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="7dp"
+            android:text="  ENDEREÇO:"
+            android:layout_width="121.0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="5.2dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="viewStart"
+            android:layout_height="40.7dp"
+            android:inputType="text"
+            android:textColor="#C5BBBB"
+            android:id="@+id/edtEndereco"
+            android:autoSizeTextType="uniform" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35.0dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="  EMAIL DONO:"
+            android:layout_width="139.0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="viewStart"
+            android:layout_height="41.7dp"
+            android:id="@+id/edtEmail"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3.3dp"
+        android:id="@+id/space1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="  NOME DONO:"
+            android:layout_width="137.0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="0.0dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="viewStart"
+            android:layout_height="41.3dp"
+            android:inputType="text"
+            android:id="@+id/edtDono"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="  TEL. DONO:"
+            android:layout_width="126.7dp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1"
+            android:autoSizeTextType="uniform" />
+        <Space
+            android:layout_width="4.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:textAlignment="textStart"
+            android:layout_height="42.0dp"
+            android:inputType="text"
+            android:id="@+id/edtTel"
+            android:textColor="#C5BBBB"
+            android:autoSizeTextType="uniform" />
+    </LinearLayout>
+</LinearLayout>

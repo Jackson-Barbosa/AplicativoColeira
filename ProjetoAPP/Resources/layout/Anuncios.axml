@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#FFEBCD">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="match_parent"
+            android:layout_height="110.7dp" />
+        <TextView
+            android:id="@+id/txtIndisponivel"
+            android:layout_width="match_parent"
+            android:layout_height="161.0dp"
+            android:text=" INDISPONIBILIDADE DE SERVIÇO. AGUARDE A VERSÃO V1.2.0"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/notification_action_icon_size" />
+    </LinearLayout>
+    <Space
+        android:id="@+id/espaco"
+        android:layout_width="match_parent"
+        android:layout_height="27.0dp" />
+    <LinearLayout
+        android:id="@+id/AnuncioLayoutHorizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Space
+            android:id="@+id/espaco"
+            android:layout_width="126.0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/AnuncioButtonOk"
+            android:layout_width="112.0dp"
+            android:layout_height="45.0dp"
+            android:text=" OK "
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/Borda"
+            android:textColor="@android:color/background_dark" />
+        <Space
+            android:id="@+id/espaco"
+            android:layout_width="64.7dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
